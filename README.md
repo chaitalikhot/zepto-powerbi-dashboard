@@ -16,37 +16,37 @@ The dashboard is designed for business users to quickly identify stockout issues
 
 ##  Executive Summary
 
-![Executive Summary](page1.png)
+![Executive Summary](images/page1.png)
 
 ---
 
 ##  Catalog Overview
 
-![Catalog Overview](page2.png)
+![Catalog Overview](images/page2.png)
 
 ---
 
 ##  Pricing & Discount Strategy
 
-![Pricing & Discount Strategy](page3.png)
+![Pricing & Discount Strategy](images/page3.png)
 
 ---
 
 ##  Stockout Impact Analysis
 
-![Stockout Impact](page4.png)
+![Stockout Impact](images/page4.png)
 
 ---
 
 ##  Category Deep Dive
 
-![Category Deep Dive](page5.png)
+![Category Deep Dive](images/page5.png)
 
 ---
 
 ##  Additional Insights
 
-![Additional Insights](page6.png)
+![Additional Insights](images/page6.png)
 
 ---
 
@@ -164,24 +164,28 @@ The dashboard follows a **Star Schema** data model.
 #  Repository Contents
 
 ```
-README.md
-Zepto_Product_Analytics_Dashboard.pbix
-Zepto_Dashboard.pdf
-page1.png
-page2.png
-page3.png
-page4.png
-page5.png
-page6.png
-Fact_Products.csv
-Category.csv
-Discount_Band.csv
-Stock_Status.csv
-Weight_Band.csv
-Bridge_Product_Category.csv
+zepto-powerbi-dashboard
+│
+├── README.md
+├── Zepto_Product_Analytics_Dashboard.pbix
+├── Zepto_Dashboard.pdf
+│
+├── images
+│   ├── page1.png
+│   ├── page2.png
+│   ├── page3.png
+│   ├── page4.png
+│   ├── page5.png
+│   └── page6.png
+│
+└── data
+    ├── Fact_Products.csv
+    ├── Category.csv
+    ├── Discount_Band.csv
+    ├── Stock_Status.csv
+    ├── Weight_Band.csv
+    └── Bridge_Product_Category.csv
 ```
-
----
 
 #  Skills Demonstrated
 
