@@ -1,0 +1,5 @@
+discount_band_key,band_label
+1,No Discount
+2,Low (1-15%)
+3,Medium (16-35%)
+4,High (35%+)
